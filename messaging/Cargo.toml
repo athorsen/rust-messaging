@@ -1,0 +1,13 @@
+[package]
+name = "messaging"
+version = "0.1.0"
+authors = ["Tony Thorsen <tony@tonythorsen.com>"]
+edition = "2018"
+exclude = ["src/bin/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lapin = "0.28.3"
+amq-protocol-types = "3.1.0"
+dotenv = "0.15.0"
